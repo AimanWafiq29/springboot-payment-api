@@ -5,8 +5,8 @@ import lombok.Data;
 @Data
 public class CreateOrderRequest {
     private String orderId;
-    private Double grossAmount;
-    private String customerName;
-    private String customerEmail;
-    private String customerPhone;
+    private String productName;
+    private Double price;
+    private Integer quantity;
+    private String status;
 }
